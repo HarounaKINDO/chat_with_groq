@@ -1,0 +1,3 @@
+openai_key = "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"
+
+groq_key = "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"

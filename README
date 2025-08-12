@@ -1,0 +1,34 @@
+# 🎬 Chat sur les Stars avec LangChain + Groq
+
+## 📌 Description
+Ce projet est une application de chat développée avec **LangChain** et **Groq**, permettant d’obtenir des informations sur des célébrités simplement en saisissant leur nom.  
+L’application a été déployée localement.
+## 🚀 Fonctionnalités
+- 💬 Chat interactif avec Groq pour obtenir des infos sur des célébrités
+- 🛠 Exemple concret d’intégration LangChain + Groq
+- ⚡ Déploiement local rapide avec **Streamlit**
+
+---
+## 📂 Structure du projet
+
+
+---
+
+## 📦 Installation
+
+1. **Cloner le dépôt**
+```bash
+git clone https://github.com/<ton-username>/<nom-du-projet>.git
+cd <nom-du-projet>
+
+2. Créer un environnement virtuel
+python -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
+
+3. Installer les dépendances
+pip install -r requirements.txt
+```
+4. ** Lancer l'application **
+GROQ_API_KEY=ta_cle_api
+streamlit run app.py
